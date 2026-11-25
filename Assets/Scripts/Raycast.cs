@@ -13,7 +13,7 @@ public class Raycast : MonoBehaviour
     [SerializeField] private float _timer = 5f;
     [SerializeField] private Text _timerText;
 
-    [SerializeField] private string _sceneName;
+    private string _sceneName;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     void Awake()
